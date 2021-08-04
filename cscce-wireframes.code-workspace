@@ -1,0 +1,340 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"[Edge Dark]": {
+				"button.foreground": "#161514",
+				"checkbox.background": "#161514",
+				"dropdown.background": "#161514",
+				"input.background": "#16151400",
+				"badge.foreground": "#161514",
+				"list.hoverBackground": "#16151400",
+				"activityBar.border": "#161514",
+				"activityBar.background": "#161514",
+				"activityBar.dropBackground": "#161514",
+				"activityBarBadge.foreground": "#161514",
+				"sideBar.background": "#161514",
+				"sideBarSectionHeader.background": "#16151400",
+				"editorGroupHeader.tabsBackground": "#161514",
+				"editorGroupHeader.noTabsBackground": "#161514",
+				"tab.border": "#161514",
+				"tab.inactiveBackground": "#161514",
+				"tab.hoverBackground": "#161514",
+				"tab.activeBackground": "#161514",
+				"tab.unfocusedActiveBorder": "#16151400",
+				"editor.background": "#161514",
+				"editorCursor.background": "#161514",
+				"editorBracketMatch.border": "#16151400",
+				"editorOverviewRuler.border": "#16151400",
+				"editorGutter.background": "#16151400",
+				"editorWidget.background": "#161514",
+				"debugToolBar.background": "#161514",
+				"merge.border": "#16151400",
+				"panel.background": "#161514",
+				"panel.border": "#161514",
+				"imagePreview.border": "#161514",
+				"statusBar.background": "#161514",
+				"statusBar.border": "#161514",
+				"statusBar.debuggingForeground": "#161514",
+				"statusBar.noFolderBackground": "#161514",
+				"statusBar.noFolderBorder": "#161514",
+				"statusBar.prominentForeground": "#161514",
+				"statusBarItem.remoteForeground": "#161514",
+				"titleBar.activeBackground": "#161514",
+				"titleBar.inactiveBackground": "#161514",
+				"titleBar.border": "#161514",
+				"menubar.selectionBackground": "#161514",
+				"menubar.selectionBorder": "#161514",
+				"menu.background": "#161514",
+				"notifications.background": "#161514",
+				"extensionButton.prominentForeground": "#161514",
+				"extensionBadge.remoteForeground": "#161514",
+				"settings.numberInputBackground": "#161514",
+				"settings.textInputBackground": "#161514",
+				"settings.checkboxBackground": "#161514",
+				"settings.dropdownBackground": "#161514",
+				"editor.snippetFinalTabstopHighlightBorder": "#161514",
+				"button.hoverBackground": "#9e6eddc0",
+				"badge.background": "#6cb6eb",
+				"activityBarBadge.background": "#6cb6eb",
+				"terminal.ansiBrightMagenta": "#9e6edd",
+				"terminal.ansiMagenta": "#9e6edd",
+				"statusBar.prominentBackground": "#9e6edd",
+				"statusBar.prominentHoverBackground": "#9e6eddc0",
+				"statusBarItem.remoteBackground": "#6cb6eb",
+				"gitDecoration.conflictingResourceForeground": "#9e6edda0",
+				"extensionBadge.remoteBackground": "#9e6edd",
+				"settings.numberInputForeground": "#9e6edd",
+				"symbolIcon.booleanForeground": "#9e6edd",
+				"symbolIcon.constructorForeground": "#9e6edd",
+				"symbolIcon.enumeratorForeground": "#9e6edd",
+				"symbolIcon.moduleForeground": "#9e6edd",
+				"symbolIcon.namespaceForeground": "#9e6edd",
+				"symbolIcon.numberForeground": "#9e6edd",
+				"symbolIcon.objectForeground": "#9e6edd",
+				"symbolIcon.packageForeground": "#9e6edd",
+				"tokenColors": [
+					{
+						"name": "Keyword",
+						"scope": [
+							"keyword"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Keyword Control",
+						"scope": [
+							"keyword.control"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Keyword Operator",
+						"scope": [
+							"keyword.operator"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Storage",
+						"scope": [
+							"storage"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Storage Type Annotation,storage Type Primitive",
+						"scope": [
+							"storage.type.annotation",
+							"storage.type.primitive"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Punctuation Definition Italic",
+						"scope": [
+							"punctuation.definition.italic"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Meta Selector",
+						"scope": [
+							"meta.selector"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Markup Changed",
+						"scope": [
+							"markup.changed"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Markup Italic",
+						"scope": [
+							"markup.italic"
+						],
+						"settings": {
+							"foreground": "#9e6edd",
+							"fontStyle": "italic"
+						}
+					},
+					{
+						"name": "Source C Keyword Operator",
+						"scope": [
+							"source.c keyword.operator"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Cpp Keyword Operator",
+						"scope": [
+							"source.cpp keyword.operator"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Cs Keyword Operator",
+						"scope": [
+							"source.cs keyword.operator"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Elixir Variable Definition,source Elixir Variable Anonymous",
+						"scope": [
+							"source.elixir variable.definition",
+							"source.elixir variable.anonymous"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Go Storage Type String",
+						"scope": [
+							"source.go storage.type.string"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Java Keyword Operator Instanceof",
+						"scope": [
+							"source.java keyword.operator.instanceof"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
+						"scope": [
+							"source.js keyword.operator.delete",
+							"source.js keyword.operator.in",
+							"source.js keyword.operator.of",
+							"source.js keyword.operator.instanceof",
+							"source.js keyword.operator.new",
+							"source.js keyword.operator.typeof",
+							"source.js keyword.operator.void"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Ng Attribute With Value String",
+						"scope": [
+							"ng.attribute-with-value string"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "Source Python Keyword Operator Logical Python",
+						"scope": [
+							"source.python keyword.operator.logical.python"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] JS/TS Instanceof Keyword",
+						"scope": [
+							"keyword.operator.expression.instanceof.js",
+							"keyword.operator.expression.instanceof.ts",
+							"keyword.operator.expression.instanceof.tsx"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] JS/TS Of Keyword",
+						"scope": [
+							"keyword.operator.expression.of.js",
+							"keyword.operator.expression.of.ts",
+							"keyword.operator.expression.of.tsx"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] JS/TS Keyword New",
+						"scope": [
+							"keyword.operator.new.ts",
+							"keyword.operator.new.j",
+							"keyword.operator.new.tsx"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] JS/TS In Keyword for Loops",
+						"scope": [
+							"keyword.operator.expression.in.js",
+							"keyword.operator.expression.in.jsx",
+							"keyword.operator.expression.in.ts",
+							"keyword.operator.expression.in.tsx"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] Rust Unsafe Keyword",
+						"scope": "keyword.other.unsafe.rust",
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Link",
+						"scope": "punctuation.definition.metadata.markdown",
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					},
+					{
+						"name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
+						"scope": [
+							"markup.underline.link.markdown",
+							"markup.underline.link.image.markdown"
+						],
+						"settings": {
+							"foreground": "#9e6edd"
+						}
+					}
+				]
+			},
+			"activityBar.background": "#2b310c",
+			"titleBar.activeBackground": "#070802",
+			"titleBar.activeForeground": "#e7e7e7",
+			"activityBar.activeBackground": "#2b310c",
+			"activityBar.activeBorder": "#1f7080",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#1f7080",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"statusBar.background": "#070802",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#2b310c",
+			"titleBar.inactiveBackground": "#07080299",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.remoteColor": "#070802"
+	}
+}
