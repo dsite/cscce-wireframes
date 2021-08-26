@@ -1,0 +1,18 @@
+.menu-item {
+
+	.ct-icon-container {
+		--color: var(--linkInitialColor);
+	}
+}
+
+// icon position
+.ct-icon-container {
+	
+	&.ct-left {
+		margin-inline-end: 0.5em;
+	}
+
+	&.ct-right {
+		margin-inline-start: 0.5em;
+	}
+}

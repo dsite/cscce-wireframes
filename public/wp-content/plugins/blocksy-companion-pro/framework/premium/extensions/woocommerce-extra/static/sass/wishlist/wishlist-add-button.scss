@@ -1,0 +1,35 @@
+[class*="ct-wishlist-button"]:not(.active) {
+	.ct-heart-fill {
+		opacity: 0;
+	}
+}
+
+.ct-wishlist-button-single {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--buttonMinHeight);
+	border: 1px solid var(--border-color);
+	border-radius: var(--buttonBorderRadius, 3px);
+	--linkInitialColor: var(--color);
+
+	@include media-breakpoint-up (md) {
+		--item-order: 4;
+		--item-width: var(--buttonMinHeight);
+		margin-inline-start: var(--cart-actions-items-spacing, 10px);
+	}
+
+	span {
+		margin-inline-start: 0.5em;
+		font-size: var(--buttonFontSize);
+    	font-weight: var(--buttonFontWeight);
+	}
+
+	&:hover,
+	&.active {
+
+		.ct-icon {
+			fill: var(--icon-hover-color, var(--paletteColor1));
+		}
+	}
+}

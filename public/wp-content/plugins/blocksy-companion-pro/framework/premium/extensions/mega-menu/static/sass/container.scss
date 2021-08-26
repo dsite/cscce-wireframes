@@ -1,0 +1,95 @@
+[class*="ct-mega-menu"] > .sub-menu {
+	display: grid;
+	grid-template-columns: var(--grid-template-columns, 1fr);
+
+	width: var(--mega-menu-width, var(--container-width-base));
+	max-width: var(--mega-menu-max-width, var(--container-max-width));
+}
+
+.ct-mega-menu-content-full {
+	--mega-menu-width: calc(100vw - 60px);
+	--mega-menu-max-width: 100%;
+}
+
+// spacing
+[class*="ct-mega-menu"] > .sub-menu {
+	// padding: var(--columns-padding, 30px) 0;
+
+	> li {
+		min-width: 0;
+		padding: var(--columns-padding, 20px 30px);
+
+		[class*="children"]:not(:first-child) {
+			padding-top: 20px;
+		}
+	}
+}
+
+.ct-mega-menu-content-width,
+.ct-mega-menu-custom-width {
+	> .sub-menu > li {
+		overflow: hidden;
+		
+		&:first-child {
+			border-top-left-radius: inherit;
+			border-bottom-left-radius: inherit;
+		}
+
+		&:last-child {
+			border-top-right-radius: inherit;
+			border-bottom-right-radius: inherit;
+		}
+	}
+}
+
+// position & width
+.ct-mega-menu-content-width,
+.ct-mega-menu-full-width, {
+	> .sub-menu {
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+// full width
+.ct-mega-menu-full-width {
+	> .sub-menu {
+		box-shadow: none;
+
+		&:after {
+			position: absolute;
+			content: '';
+			z-index: 0;
+			width: 100vw;
+			top: 0;
+			left: 50%;
+			right: 0;
+			bottom: 0;
+			margin-left: -50vw;
+			background-color: inherit;
+			box-shadow: var(--box-shadow);
+		}
+
+		li {
+			z-index: 2;
+		}
+
+		> li {
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+}
+
+
+// custom width
+.ct-mega-menu-custom-width:not([data-submenu]) {
+	justify-content: center;
+}
